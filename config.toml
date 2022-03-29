@@ -22,7 +22,7 @@ weight = 2
 
 [[menu.main]]
 name = "Academic Work"
-url = "/tags"
+url = "/work"
 weight = 3
 
 [[menu.main]]
