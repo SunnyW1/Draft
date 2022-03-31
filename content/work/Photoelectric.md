@@ -7,6 +7,6 @@ keywords:
 
 Enter description here... [Work in Progress]
 
-##Note:
+# Note:
 I am currently having difficulty uploading images, but there will be 2-3 images for every
 project subcategory
