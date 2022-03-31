@@ -106,7 +106,30 @@ filter INPUT FORWARD OUTPUT nat PREROUTING POSTROUTING OUTPUT mangle PREROUTING 
 INPUT - 来自外部的数据包（访问本机） OUTPUT - 发往外部的数据包（本机访问外部） FORWORD - “路过”本机的数据包，转发到其他设备 链中规则的匹配方式遵循first match。filter会根据数据包特征从相应链中的第一条规则开始逐一进行匹配。只要遇到满足特征的规则后便不再继续。 每条链在最底端都定义了默认规则。默认规则只会有一种状态：ACCEPT或者DROP。默认为ACCEPT。
 iptables命令参数 格式：
 iptables -操作方式 [链名] [条件匹配] [选项] iptables -[ACD] chain rule-specification [options] iptables -I chain [rulenum] rule-specification [options] iptables -R chain rulenum rule-specification [options] iptables -D chain rulenum [options] iptables -[LS] [chain [rulenum]] [options] iptables -[FZ] [chain] [options] iptables -[NX] chain iptables -E old-chain-name new-chain-name iptables -P chain target [options] iptables -h (print this help information) 常用操作方式：</description></item><item><title>composer中的autoload</title><link>https://sunnyw1.github.io/draft/work/2016-11-05-php-composer-autoload/</link><pubDate>Sat, 05 Nov 2016 02:42:06 +0000</pubDate><guid>https://sunnyw1.github.io/draft/work/2016-11-05-php-composer-autoload/</guid><description>composer的autoload可以轻松的实现php的自动加载。在composer.json中添加autoload字段即可。当前支持 PSR-0 PSR-4 classmap解析和files包含。官方推荐PSR-4标准（添加类时不需要重新生成加载器）。
-PSR-4 Under the psr-4 key you define a mapping from namespaces to paths, relative to the package root. When autoloading a class like Foo\\Bar\\Baz a namespace prefix Foo\\ pointing to a directory src/ means that the autoloader will look for a file named src/Bar/Baz.php and include it if present. Note that as opposed to the older PSR-0 style, the prefix (Foo\\) is not present in the file path.</description></item><item><title>About me</title><link>https://sunnyw1.github.io/draft/about/</link><pubDate>Wed, 24 Aug 2016 17:51:42 +0000</pubDate><guid>https://sunnyw1.github.io/draft/about/</guid><description>Email: sw758@cornell.edu</description></item><item><title>test</title><link>https://sunnyw1.github.io/draft/work/2016-10-22-z/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sunnyw1.github.io/draft/work/2016-10-22-z/</guid><description>:-)
+PSR-4 Under the psr-4 key you define a mapping from namespaces to paths, relative to the package root. When autoloading a class like Foo\\Bar\\Baz a namespace prefix Foo\\ pointing to a directory src/ means that the autoloader will look for a file named src/Bar/Baz.php and include it if present. Note that as opposed to the older PSR-0 style, the prefix (Foo\\) is not present in the file path.</description></item><item><title>About me</title><link>https://sunnyw1.github.io/draft/about/</link><pubDate>Wed, 24 Aug 2016 17:51:42 +0000</pubDate><guid>https://sunnyw1.github.io/draft/about/</guid><description>Email: sw758@cornell.edu</description></item><item><title>test</title><link>https://sunnyw1.github.io/draft/posts/2016-10-22-z/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sunnyw1.github.io/draft/posts/2016-10-22-z/</guid><description>:-)
+Look at the stars
+抬头仰望满天繁星
+Look how they shine for you
+看它们为你绽放着 闪烁不息
+And everything you do
+而你的一颦一举
+Yeah&amp;rsquo; they were all Yellow
+却满含胆怯和羞意
+I came along
+我追随着你的气息
+I wrote a song for you
+为你写下一首歌曲
+And all the things you do
+回想着你的所有举动和笑意
+it was called Yellow
+并用Yellow为这首歌命名
+So then I took my turn
+我耗尽心力
+Oh what a thing to have done
+用行动表达我的爱意
+And it was all Yellow
+噢这过程充满不安羞怯和点滴暖意
+Your skin</description></item><item><title>test</title><link>https://sunnyw1.github.io/draft/work/2016-10-22-z/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sunnyw1.github.io/draft/work/2016-10-22-z/</guid><description>:-)
 Look at the stars
 抬头仰望满天繁星
 Look how they shine for you
