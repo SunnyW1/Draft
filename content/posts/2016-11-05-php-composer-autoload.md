@@ -7,10 +7,8 @@ keywords:
 
 Enter general description here...
 
-![image info]("Form.png")
-
 {{< rawhtml >}}
-<img src="/Users/sunnywong/Documents/draft/content/posts/Images/Form.png" alt="alt text" width="200;" />
+<img src="Form.png" alt="Title" width="200;" />
 {{< /rawhtml >}}
 
 Enter takeaways...
