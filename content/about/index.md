@@ -7,7 +7,6 @@ Email: sw758@cornell.edu
 
 {{< rawhtml >}}
 
-<img src= "images/form.JPG"
-  style="max-width: 100%;" />
+<img src= "../images/form.jpeg" />
 
 {{< /rawhtml >}}  
