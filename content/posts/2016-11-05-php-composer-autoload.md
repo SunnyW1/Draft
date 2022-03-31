@@ -7,7 +7,10 @@ keywords:
 
 Enter general description here...
 
-![image info](/sunnywong/Documents/draft/content/posts/Images/Form.png")
-<img src="/Users/sunnywong/Documents/draft/content/posts/Images/Form.png" alt="alt text" width="200"/>
+![image info]("Form.png")
+
+{{< rawhtml >}}
+<img src="/Users/sunnywong/Documents/draft/content/posts/Images/Form.png" alt="alt text" width="200;" />
+{{< /rawhtml >}}
 
 Enter takeaways...
