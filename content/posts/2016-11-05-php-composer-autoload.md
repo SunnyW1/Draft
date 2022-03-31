@@ -7,7 +7,7 @@ keywords:
 
 Enter general description here...
 
-![image info](Images/Form.png)
+![image info](/sunnywong/Documents/draft/content/posts/Images/Form.png")
 <img src="/Users/sunnywong/Documents/draft/content/posts/Images/Form.png" alt="alt text" width="200"/>
 
 Enter takeaways...
