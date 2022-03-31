@@ -1,15 +1,12 @@
 ---
 title: Project 1: Stacking Faults in STEM images
-date: 2021-01-22 01:12:02
+date: 2021-01-22 02:42:06
 category: life
+keywords:
 ---
 
 Enter general description here...
 
-### Images
-
 ![Form_Image](Images/form.JPG)
 
-__Conclusions__
-
-Enter takeaways... 
+Enter takeaways...
