@@ -12,7 +12,7 @@
       <title>Code Block Test</title>
       <link>https://sunnyw1.github.io/draft/posts/code-block-test/</link>
       <pubDate>Sun, 27 Jun 2021 09:00:00 +0000</pubDate>
-      
+
       <guid>https://sunnyw1.github.io/draft/posts/code-block-test/</guid>
       <description>String
 Using indents:
@@ -20,61 +20,61 @@ text text text  Fenced code block:
 text text &amp;lt;tag&amp;gt; Fenced code block with language (lineNumbersInTable = false):
 1// JavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJavaJava 2public final class String 3 implements java.io.Serializable, Comparable&amp;lt;String&amp;gt;, CharSequence 4{ 5 /** The value is used for character storage. */ 6 private final char value[]; 7 8 /** The offset is the first index of the storage that is used. */ 9 private final int offset; 10 11 /** The count is the number of characters in the String.</description>
     </item>
-    
+
     <item>
       <title>Changes to String in java (from 1.7.0_06)</title>
       <link>https://sunnyw1.github.io/draft/posts/2020-06-06-changes-in-java-string/</link>
       <pubDate>Sat, 06 Jun 2020 09:00:00 +0000</pubDate>
-      
+
       <guid>https://sunnyw1.github.io/draft/posts/2020-06-06-changes-in-java-string/</guid>
       <description>Before 1.7.0_06, String has 4 non static field:
  char[] value int[] offset int count int hash  Subing.substring create a String by sharing the original String&amp;rsquo;s internal char[] value and setting offset. This saves memory and makes String.substring run in a constant time($O(1)$). Meanwhile, this feature may cause memory leak1.
 http://hg.openjdk.java.net/jdk6/jdk6/jdk/file/8deef18bb749/src/share/classes/java/lang/String.java
 1public final class String 2 implements java.io.Serializable, Comparable&amp;lt;String&amp;gt;, CharSequence 3{ 4 /** The value is used for character storage.</description>
     </item>
-    
+
     <item>
       <title>Algorithms - Graphs</title>
       <link>https://sunnyw1.github.io/draft/posts/2020-05-01-algorithms-graphs/</link>
       <pubDate>Fri, 01 May 2020 09:00:00 +0000</pubDate>
-      
+
       <guid>https://sunnyw1.github.io/draft/posts/2020-05-01-algorithms-graphs/</guid>
       <description>Undirected Graphs Some problems  Path Shortest path Cycle Ehler tour: A cycle that uses each edge excatly once. Hamilton tour: A cycle that uses each vertex exactly once  classical NP-complete problem.   Connectivity MST: Biconnectivity: A vertex whose removal disconnects the graph Planarity Graph isomorphism: Are two graphs identical?  No one knows so far. A lonstanding open problem    Representations Real-world graphs tend to be sparse (huge number of vertices, small average vertex degree).</description>
     </item>
-    
+
     <item>
       <title>Programming Language - Subtyping</title>
       <link>https://sunnyw1.github.io/draft/posts/2020-04-29-subtyping/</link>
       <pubDate>Wed, 29 Apr 2020 09:00:00 +0000</pubDate>
-      
+
       <guid>https://sunnyw1.github.io/draft/posts/2020-04-29-subtyping/</guid>
       <description>Some Good Subtyping Rules  Width subtyping: A supertype can have a subset of fields with the same types, i.e., a subtype can have extra fields. Permutation subtypings: A supertype can have the same set of fields with the same types in a different order. Transitivity: if t1 is subtype of t2, and t2 is subtype of t3, then t1 is subtype of t3. Reflexivity: Every type is a subtype of itself.</description>
     </item>
-    
+
     <item>
       <title>Racket notes</title>
       <link>https://sunnyw1.github.io/draft/posts/2020-02-29-racket/</link>
       <pubDate>Sat, 29 Feb 2020 09:00:00 +0000</pubDate>
-      
+
       <guid>https://sunnyw1.github.io/draft/posts/2020-02-29-racket/</guid>
       <description>Basic 1#lang racket 2(provide (all-defined-out)) 3 4;this is a comment 5 6(define s &amp;#34;hello&amp;#34;) 7 8(define x 3) 9(define y (+ x 2)) 10 11(define cube1 12 (lambda (x) 13 (* x (* x x)))) 14 15(define cube2 16 (lambda (x) 17 (* x x x))) 18 19(define (cube3 x) 20 (* x x x)) 21 22(define (pow1 x y) 23 (if (=y 0) 24 1 25 (* x (pow1 x (- y 1))))) 26 27; currying 28(define pow2 29 (lambda (x) 30 (lambda (y) 31 (pow1 x y)))) 32 List  Empty list: null  () doesn&amp;quot;t work for null but &#39;() does   build a list: (list e1 .</description>
     </item>
-    
+
     <item>
       <title>Standard ML notes</title>
       <link>https://sunnyw1.github.io/draft/posts/2019-12-30-standardml-notes/</link>
       <pubDate>Mon, 30 Dec 2019 09:00:00 +0000</pubDate>
-      
+
       <guid>https://sunnyw1.github.io/draft/posts/2019-12-30-standardml-notes/</guid>
       <description>Basics Comments (* SML comment *) Variable bindings and Expressions val x = 34; (* static environment: x : int *) (* dynamic environment: x --&amp;gt; 34 *) val y = x + 1; (* Use tilde character instead of minus to reprsent negation *) val z = ~1; (* Integer Division *) val w = y div x Strings:
 (* `\n`のようなエスケープシーケンスが利用できる *) val x = &amp;quot;hello\n&amp;quot;; (* 文字列の連結には&#39;^&#39;を使う *) val y = &amp;quot;hello &amp;quot; ^ &amp;quot;world&amp;quot;; An ML program is a sequence of bindings.</description>
     </item>
-    
+
     <item>
       <title>uipath ノート（三）- uipath orchestrator</title>
       <link>https://sunnyw1.github.io/draft/posts/2019-11-23-uipath-orchestrator/</link>
       <pubDate>Sat, 23 Nov 2019 09:00:00 +0000</pubDate>
-      
+
       <guid>https://sunnyw1.github.io/draft/posts/2019-11-23-uipath-orchestrator/</guid>
       <description>利用手順 Official doc: https://docs.uipath.com/robot/docs/from-orchestrator-and-the-orchestrator-settings-window
 マシンを追加 マシン側でマシン名とユーザ名を確認
@@ -86,12 +86,12 @@ https://platform.uipath.com/&amp;lt;account name&amp;gt;/&amp;lt;service name&am
 その他 再パブリッシュすると、Processが最新バージョンを使うため、変更作業が必要 Processes　⇒　More Options　⇒　View Process　⇒　最新のバージョンに切り替える
 ジョブの停止  停止(Stop)：必ずワークフロー内で「停止すべきか確認(Should Stop)」アクティビティを使用する 強制終了(Kill)：処理中の内容に関わらず、ジョブを停止する  アクティブなジョブは削除できない パラメーター変更の優先順位 ジョブ (Jobs) -&amp;gt; プロセス (Processes) -&amp;gt; パッケージ(UiPath Studio)</description>
     </item>
-    
+
     <item>
       <title>uipath ノート（二）- Best Practice</title>
       <link>https://sunnyw1.github.io/draft/posts/2019-11-18-uipath-best-practice/</link>
       <pubDate>Mon, 18 Nov 2019 09:00:00 +0000</pubDate>
-      
+
       <guid>https://sunnyw1.github.io/draft/posts/2019-11-18-uipath-best-practice/</guid>
       <description>時間をかけて各ワークフローに適したレイアウトを選択しましょう。   メイン: フローチャートまたはステートマシン
   ビジネスロジック: フローチャート
@@ -109,35 +109,35 @@ https://platform.uipath.com/&amp;lt;account name&amp;gt;/&amp;lt;service name&am
   環境設定を Config ファイルに格納
   不要になったアプリケーションを終了させることで、常にクリーンな状態を維持しましょう。 </description>
     </item>
-    
+
     <item>
       <title>JavaScript URI エンコーディング</title>
       <link>https://sunnyw1.github.io/draft/posts/2019-11-10-encodeuricomponent/</link>
       <pubDate>Sun, 10 Nov 2019 09:00:00 +0000</pubDate>
-      
+
       <guid>https://sunnyw1.github.io/draft/posts/2019-11-10-encodeuricomponent/</guid>
       <description>まとめ encodeURI()とencodeURIComponent()はRFC 2396準拠である。 encodeURI() は完全な URI を表すのに必要な文字 (Reserved Characters) はエンコードしません。 また、予約されていないが &amp;ldquo;そのまま&amp;rdquo; URI に使用できる(Unreserved Marks) 文字をエンコードしません。 encodeURIComponent() は &amp;ldquo;Unreserved Marks&amp;rdquo; 文字をエンコードしません。
 1var set1 = &amp;#34;;,/?:@&amp;amp;=+$#&amp;#34;; // Reserved Characters 2var set2 = &amp;#34;-_.!~*&amp;#39;()&amp;#34;; // Unreserved Marks 3 4console.log(encodeURI(set1)); // ;,/?:@&amp;amp;=+$ 5console.log(encodeURI(set2)); // -_.!~*&amp;#39;() 6 7console.log(encodeURIComponent(set1)); // %3B%2C%2F%3F%3A%40%26%3D%2B%24 8console.log(encodeURIComponent(set2)); // -_.!~*&amp;#39;() rfc2396 appendix-A https://tools.ietf.org/html/rfc2396#appendix-A
 URI-reference = [ absoluteURI | relativeURI ] [ &amp;quot;#&amp;quot; fragment ] absoluteURI = scheme &amp;quot;:&amp;quot; ( hier_part | opaque_part ) relativeURI = ( net_path | abs_path | rel_path ) [ &amp;quot;?</description>
     </item>
-    
+
     <item>
       <title>uipath ノート（一）</title>
       <link>https://sunnyw1.github.io/draft/posts/2019-10-27-uipath/</link>
       <pubDate>Sun, 27 Oct 2019 09:00:00 +0000</pubDate>
-      
+
       <guid>https://sunnyw1.github.io/draft/posts/2019-10-27-uipath/</guid>
       <description>変数  Int32 String Boolean GenericValue　参照   UiPath Studio には GenericValue 変数の自動変換メカニズムがあり、式を正しく定義することで、目的の結果を得ることができます。式の最初の要素は、Studio から操作するガイドラインとして使用されることを考慮してください。例えば、2 つの GenericValue 変数を追加し、式の最初の変数が String として定義されてた場合、最初に代入された値を元に 2 つの値を結合し、文字列となります。 Integer として定義した場合の結果は、合計の値となります。
   Array DataTime DataTable  .Net 変数型を参照して探す方法
 アクティビティ レイアウトダイアグラム  シーエンス：　より高度で複雑な自動化に向こう フローチャート：　シンプルな自動化プロジェクトに適している ステートマシン Global Exception Handler (グローバル例外ハンドラー)   参照：https://docs.uipath.com/studio/lang-ja/docs/workflow-design
  選択肢  条件分岐(If)：　シーケンス用条件分岐 フロー条件分岐(flow desicion)：　フローチャート用条件分岐 フロースイッチ (Flow Switch)  繰り返し  繰り返し（前判定）(While) 繰り返し（後判定）(Do While) 繰り返し（コレクションの各要素）(For Each)  データ操作  CSVを読み込み(Read CSV)  オプションにエンコーディングを指定できる（日本語データがある場合、&amp;quot;SHIFT-JIS&amp;quot;を指定する） 列名を含める(IncludeColumnNames)を指定できる 出力タイプ：System.</description>
     </item>
-    
+
     <item>
       <title>JavaScript Comparison operation at a glance</title>
       <link>https://sunnyw1.github.io/draft/posts/2019-03-28-javascript-comparison/</link>
       <pubDate>Thu, 28 Mar 2019 09:00:00 +0000</pubDate>
-      
+
       <guid>https://sunnyw1.github.io/draft/posts/2019-03-28-javascript-comparison/</guid>
       <description>When given a scenario like:
 1console.log(null &amp;gt; -1) //true It produces true, which makes me think null is treated as 0. But when I run:
@@ -145,12 +145,12 @@ URI-reference = [ absoluteURI | relativeURI ] [ &amp;quot;#&amp;quot; fragment ]
 I googled a lot and finally found answers in Ecma-262 Specification.
 The comparison x == y, where x and y are values, produces true or false. Such a comparison is performed as follows:</description>
     </item>
-    
+
     <item>
       <title>Js tips I can&#39;t remember</title>
       <link>https://sunnyw1.github.io/draft/posts/2019-03-22-js-tips/</link>
       <pubDate>Fri, 22 Mar 2019 09:00:00 +0000</pubDate>
-      
+
       <guid>https://sunnyw1.github.io/draft/posts/2019-03-22-js-tips/</guid>
       <description>&lt;h2 id=&#34;__proto__-vs-prototype&#34;&gt;&lt;code&gt;__proto__&lt;/code&gt; VS &lt;code&gt;prototype&lt;/code&gt;&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -164,22 +164,22 @@ The comparison x == y, where x and y are values, produces true or false. Such a 
 &lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#6272a4&#34;&gt;&lt;/span&gt;( &lt;span style=&#34;color:#ff79c6&#34;&gt;new&lt;/span&gt; Foo ).prototype &lt;span style=&#34;color:#ff79c6&#34;&gt;===&lt;/span&gt; &lt;span style=&#34;color:#ff79c6&#34;&gt;undefined&lt;/span&gt;; &lt;span style=&#34;color:#6272a4&#34;&gt;// true
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
-    
+
     <item>
       <title>Bind specific arguments of a function</title>
       <link>https://sunnyw1.github.io/draft/posts/2019-03-08-es6-bind-trick/</link>
       <pubDate>Fri, 08 Mar 2019 09:00:00 +0000</pubDate>
-      
+
       <guid>https://sunnyw1.github.io/draft/posts/2019-03-08-es6-bind-trick/</guid>
       <description>To bind specific (nth) arguments of a function, we can write a decorator instead of using Function.bind():
 1function func(p1, p2, p3) { 2 console.log(p1, p2, p3); 3} 4// the binding starts after however many are passed in. 5function decorator(...bound_args) { 6 return function(...args) { 7 return func(...args, ...bound_args); 8 }; 9} 10 11// bind the last parameter 12let f = decorator(&amp;#34;3&amp;#34;); 13f(&amp;#34;a&amp;#34;, &amp;#34;b&amp;#34;); // a b 3 14 15// bind the last two parameter 16let f2 = decorator(&amp;#34;2&amp;#34;, &amp;#34;3&amp;#34;) 17f2(&amp;#34;a&amp;#34;); // a 2 3 Even if we want to bind just the nth argument, we can do as follows:</description>
     </item>
-    
+
     <item>
       <title>Object.assign() with accessor descriptor</title>
       <link>https://sunnyw1.github.io/draft/posts/2019-03-08-object-assign-with-accessor-descriptor/</link>
       <pubDate>Fri, 08 Mar 2019 09:00:00 +0000</pubDate>
-      
+
       <guid>https://sunnyw1.github.io/draft/posts/2019-03-08-object-assign-with-accessor-descriptor/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign#Copying_accessors&#34;&gt;MDN docs:&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
@@ -206,23 +206,23 @@ The comparison x == y, where x and y are values, produces true or false. Such a 
 &lt;/span&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;18&lt;/span&gt;&lt;span style=&#34;color:#6272a4&#34;&gt;&lt;/span&gt;console.log(copy.name) &lt;span style=&#34;color:#6272a4&#34;&gt;// undefined
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The &lt;code&gt;name&lt;/code&gt; property is lost.&lt;/p&gt;</description>
     </item>
-    
+
     <item>
       <title>VueのNavigation Guards</title>
       <link>https://sunnyw1.github.io/draft/posts/2019-01-19-vue-navigation-guards/</link>
       <pubDate>Fri, 25 Jan 2019 09:00:00 +0000</pubDate>
-      
+
       <guid>https://sunnyw1.github.io/draft/posts/2019-01-19-vue-navigation-guards/</guid>
       <description>Navigation guards are provided by vue-router. Three ways to hook:
  globally per-route in-component  NOTE:
  Params or query changes won&amp;rsquo;t trigger enter/leave navigation guards. You can either watch the $route object to react to those changes, or use the beforeRouteUpdate in-component guard. Make sure to always call the next function, otherwise the hook will never be resolved.  Global 1const router = new VueRouter({ ... }) 2 3// Before Guards 4router.</description>
     </item>
-    
+
     <item>
       <title>ES6について</title>
       <link>https://sunnyw1.github.io/draft/posts/2019-01-18-es6/</link>
       <pubDate>Fri, 18 Jan 2019 16:00:00 +0000</pubDate>
-      
+
       <guid>https://sunnyw1.github.io/draft/posts/2019-01-18-es6/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/lukehoban/es6features#readme&#34;&gt;https://github.com/lukehoban/es6features#readme&lt;/a&gt;&lt;/p&gt;
@@ -231,7 +231,7 @@ The comparison x == y, where x and y are values, produces true or false. Such a 
 &lt;h2 id=&#34;string&#34;&gt;String&lt;/h2&gt;
 &lt;h3 id=&#34;stringx-is-deprecated-use-stringprototypex-instead&#34;&gt;String.x is deprecated; use String.prototype.x instead.&lt;/h3&gt;
 &lt;p&gt;非推奨の構文:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-Javascript&#34; data-lang=&#34;Javascript&#34;&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;var&lt;/span&gt; num &lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#bd93f9&#34;&gt;15&lt;/span&gt;; 
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-Javascript&#34; data-lang=&#34;Javascript&#34;&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;var&lt;/span&gt; num &lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#bd93f9&#34;&gt;15&lt;/span&gt;;
 &lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;String&lt;/span&gt;.replace(num, &lt;span style=&#34;color:#f1fa8c&#34;&gt;/5/&lt;/span&gt;, &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#39;2&amp;#39;&lt;/span&gt;);
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;標準の構文:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-Javascript&#34; data-lang=&#34;Javascript&#34;&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;var&lt;/span&gt; num &lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#bd93f9&#34;&gt;15&lt;/span&gt;;
@@ -241,12 +241,12 @@ The comparison x == y, where x and y are values, produces true or false. Such a 
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-Javascript&#34; data-lang=&#34;Javascript&#34;&gt;&lt;span style=&#34;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;const&lt;/span&gt; classes &lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f1fa8c&#34;&gt;`header &lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;${&lt;/span&gt; isLargeScreen() &lt;span style=&#34;color:#ff79c6&#34;&gt;?&lt;/span&gt; &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#ff79c6&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#f1fa8c&#34;&gt;`icon-&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;${&lt;/span&gt;item.isCollapsed &lt;span style=&#34;color:#ff79c6&#34;&gt;?&lt;/span&gt; &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#39;expander&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#ff79c6&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#39;collapser&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;`&lt;/span&gt; &lt;span style=&#34;color:#f1fa8c&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;`&lt;/span&gt;;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
-    
+
     <item>
       <title>java散列知识点总结</title>
       <link>https://sunnyw1.github.io/draft/posts/2017-02-18-hash/</link>
       <pubDate>Sat, 18 Feb 2017 19:19:01 +0000</pubDate>
-      
+
       <guid>https://sunnyw1.github.io/draft/posts/2017-02-18-hash/</guid>
       <description>java 的根类 Object 具有 hashcode 方法。当 equal 方法被重写时也应当重写 hashcode 方法。
 基本数据类型的散列码  byte short int char 类型的搜索键将会转换为 int。 float 类型的搜索键使用 Float.floatToIntBits(key) 作为散列码。 long 类型的搜索键会进行折叠操作，如下：  1iny hashCode = (int) (key ^ (key &amp;gt;&amp;gt; 32));  double 类型的搜索键会使用 Double.doubleToLongBits(key) 方法转换为 long 类型然后再进行折叠。  字符串类型的散列码 对于字符串一般使用多项式散列码进行计算，
@@ -254,12 +254,12 @@ The comparison x == y, where x and y are values, produces true or false. Such a 
 b的较好取值为31，33，37，39，41。在 java String 类中 b 取31。
 1public static int hash(String key, int tableSize) 2{ 3 int hashVal = 0; 4 5 for (int i = 0; i &amp;lt; key.</description>
     </item>
-    
+
     <item>
       <title>php的闭包特性</title>
       <link>https://sunnyw1.github.io/draft/posts/2017-01-11-php-lambada/</link>
       <pubDate>Wed, 11 Jan 2017 18:39:17 +0000</pubDate>
-      
+
       <guid>https://sunnyw1.github.io/draft/posts/2017-01-11-php-lambada/</guid>
       <description>闭包和匿名函数在PHP 5.3.0引入，并且PHP将两者视为相同的概念。闭包其实是伪装成函数的对象，它的实质其实是Closure实例。
 创建闭包非常简单：
@@ -268,23 +268,23 @@ b的较好取值为31，33，37，39，41。在 java String 类中 b 取31。
 闭包有一个有趣的bindTo()方法，可以将闭包的内部状态绑定到其他对象上，第二个参数指定了绑定闭包的对象所属的类，从而实现在闭包中访问绑定对象的私有方法和属性。
 1class Bind { 2 protected $name = &amp;#39;no name&amp;#39;; 3 public $change; 4 5 public function addAction($action) { 6 $this-&amp;gt;change = $action-&amp;gt;bindTo($this, __CLASS__); 7 } 8} 9 10$bind = new Bind(); 11$bind-&amp;gt;addAction(function() { 12 $this-&amp;gt;name = &amp;#34;php&amp;#34;; 13 return $this-&amp;gt;name; 14 }); 15 16$change = $bind-&amp;gt;change; 17echo $change(); 使用这个特性可以方便的为类添加方法并绑定：</description>
     </item>
-    
+
     <item>
       <title>ruby学习笔记</title>
       <link>https://sunnyw1.github.io/draft/posts/2016-12-08-ruby-notes/</link>
       <pubDate>Thu, 08 Dec 2016 22:54:49 +0000</pubDate>
-      
+
       <guid>https://sunnyw1.github.io/draft/posts/2016-12-08-ruby-notes/</guid>
       <description>regular expressions =~是用于正则表达式的匹配操作符。返回匹配到的字符串位置或nil。
 1&amp;#34;abcdef&amp;#34; =~ /d/ # return 3 2&amp;#34;aaaaaa&amp;#34; =~ /d/ # return nil !和? The exclamation point (!, sometimes pronounced aloud as &amp;ldquo;bang!&amp;quot;) indicates something potentially destructive, that is to say, something that can change the value of what it touches.
 ruby&amp;gt; s1 = &amp;quot;forth&amp;quot; &amp;quot;forth&amp;quot; ruby&amp;gt; s1.chop! # This changes s1. &amp;quot;fort&amp;quot; ruby&amp;gt; s2 = s1.chop # This puts a changed copy in s2, &amp;quot;for&amp;quot; ruby&amp;gt; s1 # .</description>
     </item>
-    
+
     <item>
       <title>netfilter/iptables 笔记</title>
       <link>https://sunnyw1.github.io/draft/posts/2016-11-29-iptables-usage/</link>
       <pubDate>Tue, 29 Nov 2016 21:08:52 +0000</pubDate>
-      
+
       <guid>https://sunnyw1.github.io/draft/posts/2016-11-29-iptables-usage/</guid>
       <description>netfilter 与 iptables netfilter是linux默认的防火墙，在2.4之后的版本正式进入内核。netfilter 使用四个表(Table)来存放控制信息包过滤处理的规则集。每张表由链(Chain)组成，每条链又包含了多条规则(rule)。
 iptables是用来编辑操作这些表的一个工具。iptables包中也包含了针对IPv6的工具ip6tables。
@@ -294,22 +294,22 @@ iptables是用来编辑操作这些表的一个工具。iptables包中也包含�
 iptables命令参数 格式：
 iptables -操作方式 [链名] [条件匹配] [选项] iptables -[ACD] chain rule-specification [options] iptables -I chain [rulenum] rule-specification [options] iptables -R chain rulenum rule-specification [options] iptables -D chain rulenum [options] iptables -[LS] [chain [rulenum]] [options] iptables -[FZ] [chain] [options] iptables -[NX] chain iptables -E old-chain-name new-chain-name iptables -P chain target [options] iptables -h (print this help information) 常用操作方式：</description>
     </item>
-    
+
     <item>
       <title>composer中的autoload</title>
       <link>https://sunnyw1.github.io/draft/posts/2016-11-05-php-composer-autoload/</link>
       <pubDate>Sat, 05 Nov 2016 02:42:06 +0000</pubDate>
-      
+
       <guid>https://sunnyw1.github.io/draft/posts/2016-11-05-php-composer-autoload/</guid>
       <description>composer的autoload可以轻松的实现php的自动加载。在composer.json中添加autoload字段即可。当前支持 PSR-0 PSR-4 classmap解析和files包含。官方推荐PSR-4标准（添加类时不需要重新生成加载器）。
 PSR-4 Under the psr-4 key you define a mapping from namespaces to paths, relative to the package root. When autoloading a class like Foo\\Bar\\Baz a namespace prefix Foo\\ pointing to a directory src/ means that the autoloader will look for a file named src/Bar/Baz.php and include it if present. Note that as opposed to the older PSR-0 style, the prefix (Foo\\) is not present in the file path.</description>
     </item>
-    
+
     <item>
       <title>幸せ</title>
       <link>https://sunnyw1.github.io/draft/posts/2016-10-22-z/</link>
       <pubDate>Sat, 22 Oct 2016 16:56:54 +0000</pubDate>
-      
+
       <guid>https://sunnyw1.github.io/draft/posts/2016-10-22-z/</guid>
       <description>:-)
 Look at the stars
@@ -336,15 +336,15 @@ And it was all Yellow
 噢这过程充满不安羞怯和点滴暖意
 Your skin</description>
     </item>
-    
+
     <item>
       <title>About me</title>
       <link>https://sunnyw1.github.io/draft/about/</link>
       <pubDate>Wed, 24 Aug 2016 17:51:42 +0000</pubDate>
-      
+
       <guid>https://sunnyw1.github.io/draft/about/</guid>
       <description>Github: monkeyWzr</description>
     </item>
-    
+
   </channel>
 </rss>
