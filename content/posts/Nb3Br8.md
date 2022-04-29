@@ -11,11 +11,9 @@ Going from high to low temperatures, Nb​3Br8​ crystals undergo a transition 
 
 Being held together by Van der Waals forces, the stack of 2-D layers within Nb​3Br8​ crystals rearranges as the material goes from higher to lower temperatures. Upon cooling the Nb​ Br​ crystal, the material transitions from a paramagnetic to a nonmagnetic material which is accompanied by the shift from a six-layer unit cell to a two-layer unit cell. As mentioned previously, the role of stacking faults within the magnetic transition of the crystal remains unknown. Although stacking faults within STEM images with small fields-of-view can be identified by hand, manually finding the faults becomes difficult with images of larger fields-of- view. With the goal of eventually collecting data regarding the average length of the stacking faults and the layer-density or span of stacking faults, I use multiple methods in Python to identify the location of the stacking faults. The first method involves finding the maximum phase shift between neighboring pixels, and the next uses the gradient.
 
-<img src="form.JPG" alt="Title" width="200;" />
-
 # Attempting to Upload an Image
 {{< rawhtml >}}
-<img src="form.JPG" class="img-responsive" alt=""> </div>
+<img src="form.JPG" class="img-responsive" alt="Title" width="200;"> </div>
 {{< /rawhtml >}}
 
 # Note
