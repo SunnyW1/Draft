@@ -13,7 +13,7 @@ Being held together by Van der Waals forces, the stack of 2-D layers within Nbâ€
 
 # Attempting to Upload an Image
 {{< rawhtml >}}
-<img src="form.JPG" class="img-responsive" alt="Title" width="200;"> </div>
+<img src="cat_test.png" alt="Test" width="200;"> </div>
 {{< /rawhtml >}}
 
 # Note
