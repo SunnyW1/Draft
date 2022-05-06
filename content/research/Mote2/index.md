@@ -20,7 +20,7 @@ To better understand the room temperature phase of the transition metal dichalco
 
 In the top left, a section consisting of two atomic layers from a STEM image has been cropped. Line profiles of these two layers are shown beneath the image on the top left with arrows pointing to the respective profiles. The reference molybdenum atoms are circled in the line profiles. The image to the right
 indicates a model of MoTe2 in both its phases. The purple atoms are molybdenum and the yellow atoms
-are tellurium. 
+are tellurium.
 
 # Process
 
@@ -33,7 +33,7 @@ center of mass fitting, and using Voronoi regions. In the cross-sectional STEM i
 {{< rawhtml >}}
 
 <img src="2023.jpg"
-     style="max-width: 100%;" />
+     style="max-width: 150%;" />
 
 {{< /rawhtml >}}
 
@@ -53,8 +53,3 @@ simulated image of the lower temperature Td phase in plan-view is shown below.
 The issue regarding the phase identification of the plan-view images is an ongoing process.
 My current focus is on using average line profiles within the plan-view images. With the line
 profiles from experimental data, I use curve-fitting to identify various linear combinations of profiles, taken from simulated images, that yield results similar to experimental data.  
-
-
-# Note
-I am currently having difficulty uploading images, but there will be 2-3 images for every
-project subcategory
