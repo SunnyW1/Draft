@@ -26,7 +26,7 @@ url = "/work"
 weight = 5
 
 [[menu.main]]
-name = "Contact Me"
+name = "Resume"
 url = "/about"
 weight = 2
 
