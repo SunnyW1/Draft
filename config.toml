@@ -59,7 +59,7 @@ weight = 3
   showAllPostsArchive = false # default
 
   # Home page settings
-  description = "Currently, I am a senior undergraduate student studying Engineering Physics at Cornell University. I am interested in purusing a graduate career in materials science to study energy materials and the applications of electronic materials. I am interested in characterizing and applying low-dimensional materials and working in the intersection between physics, engineering, and materials science."
+  description = "Currently, I am a senior undergraduate student studying Engineering Physics at Cornell University. I am interested in purusing a graduate career in materials science to study energy materials and the applications of electronic materials. I am interested in characterizing and applying low-dimensional materials and working in the intersection between physics, engineering, and materials science. I will be attending the University of Illinois Urbana-Champaign MatSci graduate program in Fall of 2022 as a graduate student."
   mainSection = "Research" # your main section
   showAllPostsOnHomePage = false # default
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
