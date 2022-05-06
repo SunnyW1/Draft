@@ -90,10 +90,10 @@ weight = 4
   # https://fontawesome.com/icons?d=gallery&s=brands
   [[params.social]]
     name = "github"
-    link = ""
+    link = "https://github.com/SunnyW1"
   [[params.social]]
     name = "linkedin"
-    link = ""
+    link = "https://www.linkedin.com/in/sunnymwong/"
   [[params.social]]
     name = "email"
     link = "sw758@cornell.edu"  # no need for "mailto:" in the head
