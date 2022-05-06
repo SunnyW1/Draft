@@ -14,7 +14,7 @@ To better understand the room temperature phase of the transition metal dichalco
 {{< rawhtml >}}
 
 <img src="test.jpg"
-     style="max-width: 150%;" />
+     style="max-width: 100%;" />
 
 {{< /rawhtml >}}
 
@@ -22,7 +22,7 @@ In the top left, a section consisting of two atomic layers from a STEM image has
 indicates a model of MoTe2 in both its phases. The purple atoms are molybdenum and the yellow atoms
 are tellurium.
 
-# Process
+# Progress on Project
 
 To identify displacements using cross sectional images, I use Fourier methods to partition the image
 into atomic layers. Within each atomic layer, I distinguish between the molybdenum atoms and the
@@ -33,7 +33,7 @@ center of mass fitting, and using Voronoi regions. In the cross-sectional STEM i
 {{< rawhtml >}}
 
 <img src="2023.jpg"
-     style="max-width: 150%;" />
+     style="max-width: 70%;" />
 
 {{< /rawhtml >}}
 
@@ -43,12 +43,12 @@ image is simulated. The number of layers are specified, and I implement rotation
 atomic coordinates to observe the image along the [100] axis in plan-view. An example of a
 simulated image of the lower temperature Td phase in plan-view is shown below.
 
-{{< rawhtml >}}
+<!-- {{< rawhtml >}}
 
 <img src="Td.jpg"
-     style="max-width: 150%;" />
+     style="max-width: 30%;" />
 
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
 
 The issue regarding the phase identification of the plan-view images is an ongoing process.
 My current focus is on using average line profiles within the plan-view images. With the line
