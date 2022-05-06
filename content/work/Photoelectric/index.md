@@ -12,7 +12,7 @@ The photoelectric effect refers to the process where solids emit electrons upon 
 {{< rawhtml >}}
 
 <img src="photoelectric.jpg"
-     style="max-width: 25%;" />
+     style="max-width: 50%;" />
 
 {{< /rawhtml >}}
 A diagram illustrating the photoelectric effect is shown above. Incoming photons shown as the blue waves eject electrons shown as the red balls from the surface of the metal. This image was taken from: https://en.wikipedia.org/wiki/Photoelectric_effect#/media/File:Photoelectric_effect_in_a_solid_-_diagram.svg.
