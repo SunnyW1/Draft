@@ -23,7 +23,7 @@ weight = 1
 [[menu.main]]
 name = "Academic Work"
 url = "/work"
-weight = 5
+weight = 4
 
 [[menu.main]]
 name = "Resume"
@@ -33,7 +33,7 @@ weight = 2
 [[menu.main]]
 name = "Research"
 url = "/research"
-weight = 4
+weight = 3
 
 [markup]
   [markup.tableOfContents]
@@ -60,11 +60,11 @@ weight = 4
 
   # Home page settings
   description = "Currently, I am a senior undergraduate student studying Engineering Physics at Cornell University. I am interested in purusing a graduate career in materials science to study energy materials and the applications of electronic materials. I am interested in characterizing and applying low-dimensional materials and working in the intersection between physics, engineering, and materials science."
-  mainSection = "posts" # your main section
+  mainSection = "Research" # your main section
   showAllPostsOnHomePage = false # default
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
-  tagsOverview = true # show tags overview by default.
-  showProjectsList = true # show projects list by default (if projects data file exists).
+  tagsOverview = false # show tags overview by default.
+  showProjectsList = false # show projects list by default (if projects data file exists).
   projectsUrl = "" # title link for projects list
 
   # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
