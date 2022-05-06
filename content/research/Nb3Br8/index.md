@@ -6,7 +6,7 @@ tags:
 keywords:
 ---
 
-# Introduction
+# Identifying Stacking Faults within Cross-Sectional Nb3Br8 STEM Images
 
 Going from high to low temperatures, Nb​3Br8​ crystals undergo a transition from a paramagnetic material to a nonmagnetic material and experience a shift within its stack of 2-D atomic layers (Pasco et al., 2019). With lower temperatures, Pasco et al.(2019) observes a transition from high to low magnetic susceptibility and structural rearrangement from a two-layer unit cell to a six-layer unit cell. However, the role of stacking faults, or the misalignment of atomic layers, in the magnetic transition remains unknown. To better understand the role of stacking faults, I develop python code that identifies stacking faults within Scanning Transmission Electron Microscopy (STEM) images using Ismail Baggari’s code on gradient analysis with phase maps derived from specific Fourier peaks. To understand the the density of stacking faults, I have also developed code that counts the number of atomic layers in each STEM image.
 
