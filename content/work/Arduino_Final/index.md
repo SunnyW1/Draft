@@ -15,7 +15,7 @@ keywords:
 
 {{< rawhtml >}}
 
-<video width="320" height="240" controls>
+<video width="520" height="440" controls>
   <source src="Final.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
