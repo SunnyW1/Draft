@@ -67,10 +67,10 @@ weight = 3
   showProjectsList = false # show projects list by default (if projects data file exists).
   projectsUrl = "" # title link for projects list
 
-  {{< rawhtml >}}
-  <img src="Sunny_Updated_Image.jpg"
-       style="max-width: 50%;" />
-  {{< rawhtml >}}
+  # {{< rawhtml >}}
+  # <img src="Sunny_Updated_Image.jpg"
+  #      style="max-width: 50%;" />
+  # {{< rawhtml >}}
 
   # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
   dateFormat = "2006-01-02" # default
